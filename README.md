@@ -9,12 +9,27 @@ Perustin uuden repositorion githubiin ja harjoittelin markdownin kirjoittamista.
   console.log("Hei kaikki, mä olen " + nimi);
 
 ## h1 Oma Linux
-Aloitin tarkastamalla, onko koneessani otettu käyttöön VT-X. Omassa koneessani (Lenovo V14 G4 AMN) pyörii Windows 11 Pro käyttöjärjestelmä, ja youtubesta löytämästäni tutorialista (Lenovo Support 8.5.2025, 0:36 min) selvisi, että virtualisointiasetukset otetaan automaattisesti käyttöön, jos koneesta löytyy sitä tukeva rauta.
+
+### Raportin kirjoittaminen
+Kirjoitan tätä sen jälkeen, kun sain varsinaisen kotitehtävän tehtyä.  
+Tällä kurssilla raportointiohjeet ovat huomattavasti kovemmat kun mitä aikasemmilla kursseilla on ollut. Työelämässä olen ulkoistanut raporttien kirjoittamisen ja dokumentaation laatimisen kokonaan tekoälylle, koska nämä ovat mielestäni melko ikäviä ja pitkäveteisiä prosesseja. Ymmärrän toisaalta hyvin, miksi oppimistilanteessa kannustetaan kirjoittamiseen, koska se auttaa selkeyttämään omia ajatuksia ja samalla edesauttaa luovaa ajattelua ja ongelmanratkaisua.
+
+Pyrin täsmällisyyteen ja helppolukuisuuteen, mutta palautetta saa toki antaa.
+
+En valitettavasti muistanut ottaa kellonaikoja ylös tehtävää tehdessäni, joten pahoittelut siitä etukäteen.
+
+### Virtualisointiasetukset
+Tein harjoituksen 21.8-22.8.2025 kotitoimistossani. Koneena oli Lenovo V14 G4 AMN.
+
+Aloitin tarkastamalla, onko koneessani otettu käyttöön VT-X. Omassa koneessani pyörii Windows 11 Pro käyttöjärjestelmä, ja youtubesta löytämästäni tutorialista (Lenovo Support 8.5.2025, 0:36 min) selvisi, että virtualisointiasetukset otetaan automaattisesti käyttöön, jos koneesta löytyy sitä tukeva rauta.
 Menin koneen bios-asetuksiin videon ohjeistamalla tavalla, ja virtualisointi (nimetty AMD-V tässä koneessa) oli siellä tosiaan jo valmiiksi aktivoitu käyttöön.
+
+### Virtual Boxin asentaminen
 
 Latasin virtualbox installerin ja käynnistin asennuksen kurssin ohjeiden mukaisesti (Johanna Heinonen). Asennuksen yhteydessä tuli ilmoitus puuttuvista riippuvuuksista: Installing the Oracle VirtualBox 7.2.0 Python bindings requires the Python Core package and the win32api bindings to be installed. Ilmoituksessa luki myös, että tämän voi asentaa myös jälkikäteen, joten päätin viedä asennuksen maaliin ilman sitä. Virtualboxin ohjelmointimanuaalissa (Oracle VirtualBox Programming Guide and Reference) luki, että riippuvuutta tarvitaan jos VirtualBoxia haluaa scriptata Pythonilla. Päätin jättää sen asentamatta ja palata asiaan, jos sille on tarvetta myöhemmin kurssilla.
 ![](images/missing_dependencies.jpg)
 
+### Debianin asennus
 Seuraavaksi latasin ja asensin Debianin ja aloin asentamaan sitä VirtualBoxin avulla. Tässä kohtaa alkoi tulla vastaan ongelmia. Kun valitsin ISO-imageksi lataamani asennustiedoston, niin Debianin versio muuttui automaattiseksi 32-bittiseksi, ja sitä ei ollut mahdollista vaihtaa takaisin 64-bittiseksi.
 ![](images/32-bittinen.png)
 
@@ -40,6 +55,7 @@ Ensi töikseni avasin selaimen ja testasin että internet-yhteys toimii. Lisäks
 Käynnistin työpöydältä Calamares installerin. Valitsin järjestelmän kielen, aikavyöhykkeen sekä näppäimistön. Select Storage device- kohdassa ei ollut valittavana ohjeen mukaista (dev/vda), joten valitsin ainoana vaihtoehtona olevan 20.00 GiB (/dev/sda). Lopuksi asetin nimen, käyttäjänimen, koneen nimen ja salasanan ja aloitin asennuksen.
 ![](images/summary.png)
 
+### Viimeistelyä ja järjestelmän päivitystä
 Asennuksen jälkeen kone boottasi itsensä jonka jälkeen kirjauduin sisään. Jatkoin Teron ohjeiden seuraamista ja asensin palomuurin komennolla sudo apt-get -y install ufw ja päivitin koko järjestelmän sudo apt-get -y dist-upgrade -komennolla, jonka jälkeen boottasin jälleen koneen. Koitin vielä asentaa joitain Teron suosittelemia ohjelmia, mutta firefoxin ad blockeria ei löytynyt.
 ![](/images/ad%20blocker.png)
 
