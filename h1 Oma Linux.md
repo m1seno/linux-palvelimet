@@ -1,13 +1,3 @@
-# linux-palvelimet
-Kurssin raportit
-
-## h0 Hei Weppi
-
-Perustin uuden repositorion githubiin ja harjoittelin markdownin kirjoittamista.
-  
-  let nimi = "Miika";
-  console.log("Hei kaikki, mä olen " + nimi);
-
 ## h1 Oma Linux
 
 ### Raportin kirjoittaminen
@@ -27,11 +17,11 @@ Menin koneen bios-asetuksiin videon ohjeistamalla tavalla, ja virtualisointi (ni
 ### Virtual Boxin asentaminen
 
 Latasin virtualbox installerin ja käynnistin asennuksen kurssin ohjeiden mukaisesti (Johanna Heinonen). Asennuksen yhteydessä tuli ilmoitus puuttuvista riippuvuuksista: Installing the Oracle VirtualBox 7.2.0 Python bindings requires the Python Core package and the win32api bindings to be installed. Ilmoituksessa luki myös, että tämän voi asentaa myös jälkikäteen, joten päätin viedä asennuksen maaliin ilman sitä. Virtualboxin ohjelmointimanuaalissa (Oracle VirtualBox Programming Guide and Reference) luki, että riippuvuutta tarvitaan jos VirtualBoxia haluaa scriptata Pythonilla. Päätin jättää sen asentamatta ja palata asiaan, jos sille on tarvetta myöhemmin kurssilla.
-![](images/missing_dependencies.jpg)
+![](images/h1/missing_dependencies.jpg)
 
 ### Debianin asennus
 Seuraavaksi latasin ja asensin Debianin ja aloin asentamaan sitä VirtualBoxin avulla. Tässä kohtaa alkoi tulla vastaan ongelmia. Kun valitsin ISO-imageksi lataamani asennustiedoston, niin Debianin versio muuttui automaattiseksi 32-bittiseksi, ja sitä ei ollut mahdollista vaihtaa takaisin 64-bittiseksi.
-![](images/32-bittinen.png)
+![](images/h1/32-bittinen.png)
 
  Selvittelin asiaa ChatGPT:n avustuksella ja tämä pyysi tarkistamaan seuraavat asiat:
 
@@ -42,22 +32,22 @@ Tiesin jo, että virtualisointi on sallittu asetuksissa, joten koitin ajaa termi
 Koitin jopa (tekoälyn rohkaisemana) ottaa pois päältä Virtualization-based securityn koneen turvallisuusasetuksista, mutta tämäkään ei auttanut.
 
 Lopulta huomasin, että jos Virtuaalista konetta luodessani en laita ISO-kuvaan mitään, niin järjestelmä tunnistaa Debianin automaattisesti 64-bittiseksi, joten kokeilin sitä.
-![](images/64-bittinen.png)
+![](images/h1/64-bittinen.png)
 
 Nyt sain Virtuaalisen koneen luotua.
-![](images/Debian13.png)
+![](images/h1/Debian13.png)
 
 Kun käynnistin koneen ensimmäisen kerran, niin se herjasi, että levyasemassa ei ole mitään, mutta tässä kohtaa sain lisättyä ISO-tiedoston ongelmitta ja sain homman pelittämään. En vieläkään ymmärrä miksi Virtualbox yritti pakkottaa 32-bittistä asennusta, mutta ehkä se selviää jossain vaiheessa.
-![](images/ISO-file.png)
+![](images/h1/ISO-file.png)
 
 Ensi töikseni avasin selaimen ja testasin että internet-yhteys toimii. Lisäksi vaihdoin näppäimistön suomalaiseen versioon setxkbmap fi -komennolla. Tässä vaiheessa siirryin kurssin toiseen materiaaliin (Tero Karvinen) ja aloin seuraamaan sitä.
 
 Käynnistin työpöydältä Calamares installerin. Valitsin järjestelmän kielen, aikavyöhykkeen sekä näppäimistön. Select Storage device- kohdassa ei ollut valittavana ohjeen mukaista (dev/vda), joten valitsin ainoana vaihtoehtona olevan 20.00 GiB (/dev/sda). Lopuksi asetin nimen, käyttäjänimen, koneen nimen ja salasanan ja aloitin asennuksen.
-![](images/summary.png)
+![](images/h1/summary.png)
 
 ### Viimeistelyä ja järjestelmän päivitystä
 Asennuksen jälkeen kone boottasi itsensä jonka jälkeen kirjauduin sisään. Jatkoin Teron ohjeiden seuraamista ja asensin palomuurin komennolla sudo apt-get -y install ufw ja päivitin koko järjestelmän sudo apt-get -y dist-upgrade -komennolla, jonka jälkeen boottasin jälleen koneen. Koitin vielä asentaa joitain Teron suosittelemia ohjelmia, mutta firefoxin ad blockeria ei löytynyt.
-![](/images/ad%20blocker.png)
+![](/images/h1/ad%20blocker.png)
 
 Lopulta avasin vielä selaimen ja testasin että nettiyhteydet, hiiri ja näppis toimivat normaalisti, jonka jälkeen homma oli paketissa.
 
