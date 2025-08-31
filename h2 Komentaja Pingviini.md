@@ -41,6 +41,25 @@ Lopputulos näyttää tältä:
 Kolmas ohjelma minkä latasin oli btop. Se näyttää reaaliaikaisesti CPU:n, muistin, swapin, verkon ja levyn käytön. Se myös listaa käynnissä olevat prosessit ja antaa käyttäjälle mahdollisuuden tappaa niitä suoraan ohjelmasta (The Linux Experiment 10:10-10:53). Se on erinomainen työkalu, kun haluat selvittää miksi kone hidastelee tai mikä prosessi vie kaiken muistin/CPU:n.
 ![](images/h2/btop.png)
 
+### Esittele Kansiot
+18:15
+- /: Linuxin juurihakemisto. Tämä on korkeimman tason hakemisto, joka sisältää kaikki koneen muut hakemistot. Yksi sen sisältämistä kansioista on /root, joka on järjestelmän pääkäyttäjän (superuser) kotihakemisto. Pääkäyttäjällä on täydet admin-oikeudet järjestelmään, joten jos haluat muokata tai tallentaa scriptejä tai asetuksia /root:iin, vaatii se sudo -komentoa ja salasanaa.
+![](images/h2/root.png)
+
+- /home/: Tämä sisältää kaikkien tavallisten käyttäjien hakemistot (tällä virtuaalikoneella ainoastaan oman kotihakemistoni).
+- /home/miikan/: Oma kotihakemistoni. Tähän kansioon käyttäjällä on täysi kirjoitusoikeus. Siellä säilytetään esimerkiksi kaikkia henkilökohtaisia konfiguraatiotiedostoja.
+![](images/h2/config.png)
+![](images/h2/miikan.png)
+
+-/etc/: Tämä sisältää koko järjestelmän laajuiset asetukset. Yksi esimerkki näistä on ssh (Secure Shell), protokolla, joka salaa etäyhteyden koneelta toiselle.
+![](images/h2/ssh.png)
+
+-/media/: media kansio on tarkoitettu kaikelle irroitettavalle medialle (esim. usb-tikut ja cd-levyt). Tämä kansio on minulla tyhjä.
+![](images/h2/media.png)
+
+-/var/log: Tämä sisältää kaikki järjestelmän lokitiedot. Jos esimerkiksi jokin ohjelma ei toimi, syyvä voi lähteä etsimään näistä lokitiedoista. Esimerkiksi komennolla __sudo journalctl | tail__ käyttäjä näkee kaikki viimeisimmät järjestelmätapahtumat.
+![](images/h2/lokit.png)
+
 
 ### Lähteet
 opensource.com. Copy and paste at the Linux command line with xclip. Luettavissa: https://opensource.com/article/19/7/xclip. Luettu: 28.8.2025.  
