@@ -73,6 +73,11 @@ Jatketaan edellisellä esimerkillä. Jos haluan muokata tiedostoja, jotka sisäl
 ![](images/h2/Piping1.png)
 ![](images/h2/Piping2.png)
 
+### Rauta
+__lshw -short -sanitize__ -komento antoi tällaisen tuloksen:
+![](images/h2/Rauta.png)
+Virtuaalikone käyttää fyysisen koneen prosessoria, joka on tässä tapauksessa AMD Ryzen 3. Muu laitteisto taitaa olla emuloitua, josta osa, kuten RAM ja levytila määriteltiin asennuksen yhteydessä.
+
 ### Lähteet
 opensource.com. Copy and paste at the Linux command line with xclip. Luettavissa: https://opensource.com/article/19/7/xclip. Luettu: 28.8.2025.  
 
