@@ -60,6 +60,18 @@ Kolmas ohjelma minkä latasin oli btop. Se näyttää reaaliaikaisesti CPU:n, mu
 -/var/log: Tämä sisältää kaikki järjestelmän lokitiedot. Jos esimerkiksi jokin ohjelma ei toimi, syyvä voi lähteä etsimään näistä lokitiedoista. Esimerkiksi komennolla __sudo journalctl | tail__ käyttäjä näkee kaikki viimeisimmät järjestelmätapahtumat.
 ![](images/h2/lokit.png)
 
+### Grep
+20:30
+Ensimmäinen esimerkki grepin käytöstä tuli itse asiassa toiselta opiskelijalta, jonka työtä arvioin viime viikolla. Jos sinulla on tiedosto esimerkiksi pitkä lokitiedosto, ja haluat etsit tiettyä sanaa on grep tähän erinomainen työkalu. Komento tulostaa jokaisen rivin jolla kyseinen sana esiintyy.
+![](images/h2/grep1.png)
+Voit myös hakea mistä hakemiston tiedostoista löytyy osumia. Flagilla -l (pieni L) tulostetaan tiedostojen nimet, ja jos tähän yhdistetään -r, eli rekursiivinen haku (myös alihakemistot) sekä -i (grep ei välitä kirjainkoosta), niin hakuja voi tehdä erittäin tehokkaasti.
+![](images/h2/grep2.png)
+
+### Pipe
+21:00
+Jatketaan edellisellä esimerkillä. Jos haluan muokata tiedostoja, jotka sisältävät grepin hakusanan, niin voin putkittaa edellisen komennon __xargs micro__-komennolla. Tämä avaa kaikki löydetyt tiedostot suoraan editoriin muokattavaksi. Tässä pitää toki olla varovainen, sillä jos grep löysi vaikka 100 tiedostoa, niin komento avaa kyselemättä kaikki 100 tiedostoa editoriin.
+![](images/h2/Piping1.png)
+![](images/h2/Piping2.png)
 
 ### Lähteet
 opensource.com. Copy and paste at the Linux command line with xclip. Luettavissa: https://opensource.com/article/19/7/xclip. Luettu: 28.8.2025.  
