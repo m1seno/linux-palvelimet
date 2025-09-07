@@ -78,9 +78,10 @@ curl -I on houmattavasti hyödyllisempi komento, sillä se näyttää monipuolis
 - Date: Päivämäärä ja aika jolloin vastaus tuli palvelimelta.
 - Server: Millä palvelimella sivu toimii.
 - Last-Modified: Milloin sivua on viimeksi muokattu.
+![](images/h3/curlI.png)
 
 ### Github education
-
+![](images/h3/application.png)
 
 ### Lähteet
 David Girvin. 20.2.2025. Understanding the Apache eccess log: how to view, locate, and analyze. Luettavissa: https://www.sumologic.com/blog/apache-access-log. Luettu: 4.9.2025.
