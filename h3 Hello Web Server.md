@@ -1,17 +1,12 @@
 ### Lue ja tiivistä
-Susanna
+The Apache Software Foundation 2023: Apache HTTP Server Version 2.4 
 
-- GitHub Education tarjoaa opiskelijalle mahdollisuuden vuokrata pilvipalvelimen ja domainnimen ilmaiseksi.
-- DigitalOcean antaa käyttäjän luoda virtuaalikoneen vaivattomasti ja käyttäjä voi luoda maksuhälytyksiä, ettei luottokortilta veloiteta turhia summia.
-- NameCheapista voi vuokrata domainnimen ja ohjata sen osoittamaan haluamalleen virtuaalipalvelimelle.
+- Name-based virtual host tarkoittaa, että samalla ip-voidaan hostata useita eri domaineja, mikä säästää ip-osoitteita.
+- Jokaiselle hostille tehdään oma VirtualHost.
+- Jokaiseen VirtualHostiin on määriteltävä ServerName, jotta Apache löytää oikean osoitteen.
 
-- DigitalOceanin virtuaalipalvelimelle voi asentaa ufw-palomuurin ottamalla siihen ssh-etäyhteyden.
+Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address
 
-- Kotisivut saa palvelimelle käyttämällä komentoa __sudo a2enmod usedir__, jolloin käyttäjä voi julkaista sivuja omasta hakemistostaan.
-
-- __sudo apt-get upgrade__ päivittää pakettivarastojen tietokannan. __sudo apt-get upgrade__ asentaa kaikki saatavilla olevat päivitykset. __sudo apt-get dist-upgrade__ asentaa päivitykset ja poistaa tarvittaessa paketteja konfliktien välttämiseksi (Michlang 2.6.2020).
-
-Tero
 - Apachella voi hostata useita eri domainnimiä samassa ip-osoitteessa.
 - Vanha etusivu poistetaan käytöstä ja luodaan uusi Name Based Virtual Host.
 - HTML-tiedosto luodaan .conf -tiedostossa määritettyyn hakemistoon.
