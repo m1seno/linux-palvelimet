@@ -1,3 +1,21 @@
+### Lue ja tiivistä
+Susanna
+
+- GitHub Education tarjoaa opiskelijalle mahdollisuuden vuokrata pilvipalvelimen ja domainnimen ilmaiseksi.
+- DigitalOcean antaa käyttäjän luoda virtuaalikoneen vaivattomasti ja käyttäjä voi luoda maksuhälytyksiä, ettei luottokortilta veloiteta turhia summia.
+- NameCheapista voi vuokrata domainnimen ja ohjata sen osoittamaan haluamalleen virtuaalipalvelimelle.
+
+- DigitalOceanin virtuaalipalvelimelle voi asentaa ufw-palomuurin ottamalla siihen ssh-etäyhteyden.
+
+- Kotisivut saa palvelimelle käyttämällä komentoa __sudo a2enmod usedir__, jolloin käyttäjä voi julkaista sivuja omasta hakemistostaan.
+
+- __sudo apt-get upgrade__ päivittää pakettivarastojen tietokannan. __sudo apt-get upgrade__ asentaa kaikki saatavilla olevat päivitykset. __sudo apt-get dist-upgrade__ asentaa päivitykset ja poistaa tarvittaessa paketteja konfliktien välttämiseksi (Michlang 2.6.2020).
+
+Tero
+- Apachella voi hostata useita eri domainnimiä samassa ip-osoitteessa.
+- Vanha etusivu poistetaan käytöstä ja luodaan uusi Name Based Virtual Host.
+- HTML-tiedosto luodaan .conf -tiedostossa määritettyyn hakemistoon.
+
 Tein harjoituksen 4 ja 7.9.2025 kotitoimistossani Kaarinassa. Koneena oli Lenovo V14 G4 AMN. Käyttöjärjestelmänä Windows 11 Pro version 23H2.
 
 ### Testaa localhost
@@ -89,3 +107,5 @@ David Girvin. 20.2.2025. Understanding the Apache eccess log: how to view, locat
 Johanna Heinonen. 2025. Apache2. Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-03092025.md. Luettu: 7.9.2025.
 
 Louis Lazaris. 12.9.2023. The Complete HTML5 Boilerplate. Luettavissa: https://www.sitepoint.com/a-basic-html5-template/. Luettu: 7.9.2025.
+
+Superuser. What is the difference between apt dist-upgrade and apt upgrade? Luettavissa: https://superuser.com/questions/1554163/what-is-the-difference-between-apt-dist-upgrade-and-apt-upgrade. Luettu: 7.9.2025
