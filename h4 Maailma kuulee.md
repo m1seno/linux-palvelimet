@@ -25,9 +25,11 @@ Seurasin tässä tehtävässä Susanna Lehdon (14.2.2022) tekemää raporttia.
 17:57. Loin tilin DigitalOcean -palveluun GitHub -tunnuksieni avulla. Sain automaattisesti käytettäväksi 200 dollaria credittejä, jotka ovat voimassa vuoden verran, koska minulla on GitHub educations.
 
 Valitsin Create a Droplet -> Palvelimeksi valitsin Datacenter 3 Amsterdamissa, koska se on lähimpänä Suomea -> Käyttöjärjestelmäksi valitsin uusimman saatavilla olevan Debianin (v. 12 x64) -> Valitsin jaetun 1 GB:n CPU:n, 25 GB muistia ja 1000 GB datansiirtoa. Kokonaishinnaksi tuli 6€/kk.
+
 ![](images/h4/droplet.png)
 
 18:18. Päätin kokeilla ssh-avaimen generoimista. Päivitin pakettikirjaston __sudo apt-get update__, asensin ssh clientin __sudo apt-get -y install openssh-client__ ja loin uuden avaimen __ssh-keygen__.
+
 ![](images/h4/sshCreate.png)
 
 Kopioin julkisen avaimen hakemistostani microlla, ja liitin sen DigitalOceanin New SSH Key -kenttään. Lopulta annoin vielä kuvaavan Hostnamen ja painoin Create Droplet.
