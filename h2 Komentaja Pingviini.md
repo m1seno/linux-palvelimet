@@ -7,6 +7,7 @@
 
 ### Ympäristö
 Tein harjoituksen 28 ja 31.8.2025 kotitoimistossani. Koneena oli Lenovo V14 G4 AMN.
+Harjoituksessa seurattiin Teron (Tero Karvinen, 8.8.2025) kurssisivun tehtäviä.
 
 ### Asenna micro-editori
 28.8.2025 17:40   
@@ -86,3 +87,5 @@ The Linux Experiment. 27.2.2024. 12 GREAT command line programs that YOU recomme
 Atuin. Installing the shell plugin. Luettavissa: https://docs.atuin.sh/guide/installation/. Luettu 31.8.2025.
 
 github.com. akinomyoga / ble.sh. Luettavissa: https://github.com/akinomyoga/ble.sh?tab=readme-ov-file#get-from-source. Luettu: 31.8.2025.
+
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 28.8.2025.

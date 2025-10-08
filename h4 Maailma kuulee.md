@@ -18,6 +18,7 @@ https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-exa
 
 ### Ympäristö
 Tein harjoituksen 11.9.2025 kotitoimistossani Kaarinassa. Koneena oli Lenovo V14 G4 AMN. Käyttöjärjestelmänä Windows 11 Pro version 23H2.
+Harjoituksessa seurattiin Teron (Tero Karvinen, 8.8.2025) kurssisivun tehtäviä.
 
 ### Vuokraa virtuaalipalvelin
 Seurasin tässä tehtävässä Susanna Lehdon (14.2.2022) tekemää raporttia.
@@ -74,4 +75,6 @@ Nyt kotihakemistossa oleva html näkyy kun sivua hakee ip-osoitteen kanssa:
 Susanna Lehto. 14.2.2022. Teoriasta käytäntöön pilvipalvelimen avulla (h4). Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/. Luettu: 11.9.2025
 
 Tero Karvinen. 19.9.2017. First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/. Luettu: 11.9.2025
+
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 11.9.2025.
 

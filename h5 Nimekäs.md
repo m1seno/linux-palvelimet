@@ -1,5 +1,6 @@
 ### Ympäristö
 Tein harjoituksen 20 ja 22.9.2025 kotitoimistossani Kaarinassa. Koneena oli Lenovo V14 G4 AMN. Käyttöjärjestelmänä Windows 11 Pro version 23H2.
+Harjoituksessa seurattiin Teron (Tero Karvinen, 8.8.2025) kurssisivun tehtäviä.
 
 ### Nimi
 18:15 Aloitin vuokraamalla Namecheapiltä oman domainnimen. Päätin olla käyttämätt GitHub educationsin alennusta, koska se koski ainoastaan .me -suffixeja. Rekisteröidyin palvelussa käyttäjäksi, laitoin kaksivaiheisen tunnistautumisen päälle, ja syötin maksutiedot.
@@ -90,3 +91,5 @@ blog.globalping.io. 17.11.2023. How to Read a Dig Result: A Guide for Network No
 namecheap.com. How to Create a Subdomain for my Domain. Luettavissa: https://www.namecheap.com/support/knowledgebase/article.aspx/9776/2237/how-to-create-a-subdomain-for-my-domain/. Luettu: 22.9.2025.
 
 Susanna Lehto. 14.2.2022. Teoriasta käytäntöön pilvipalveluiden avulla (h4). Luettavissa: https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/. Luettu: 20.9.2025.
+
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 20.9.2025.

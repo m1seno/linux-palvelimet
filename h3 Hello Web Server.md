@@ -12,6 +12,7 @@ Karvinen 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Singl
 - HTML-tiedosto luodaan .conf -tiedostossa määritettyyn hakemistoon.
 
 Tein harjoituksen 4 ja 7.9.2025 kotitoimistossani Kaarinassa. Koneena oli Lenovo V14 G4 AMN. Käyttöjärjestelmänä Windows 11 Pro version 23H2.
+Harjoituksessa seurattiin Teron (Tero Karvinen, 8.8.2025) kurssisivun tehtäviä.
 
 ### Testaa localhost
 Asensin Apachen keskiviikon luennon aikana.  
@@ -103,4 +104,6 @@ Johanna Heinonen. 2025. Apache2. Luettavissa: https://github.com/johannaheinonen
 
 Louis Lazaris. 12.9.2023. The Complete HTML5 Boilerplate. Luettavissa: https://www.sitepoint.com/a-basic-html5-template/. Luettu: 7.9.2025.
 
-Superuser. What is the difference between apt dist-upgrade and apt upgrade? Luettavissa: https://superuser.com/questions/1554163/what-is-the-difference-between-apt-dist-upgrade-and-apt-upgrade. Luettu: 7.9.2025
+Superuser. What is the difference between apt dist-upgrade and apt upgrade? Luettavissa: https://superuser.com/questions/1554163/what-is-the-difference-between-apt-dist-upgrade-and-apt-upgrade. Luettu: 7.9.2025.
+
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 7.9.2025.

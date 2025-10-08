@@ -10,6 +10,7 @@ En valitettavasti muistanut ottaa kellonaikoja ylös tehtävää tehdessäni, jo
 
 ### Virtualisointiasetukset
 Tein harjoituksen 21.8-22.8.2025 kotitoimistossani. Koneena oli Lenovo V14 G4 AMN.
+Harjoituksessa seurattiin Teron (Tero Karvinen, 8.8.2025) kurssisivun tehtäviä.
 
 Aloitin tarkastamalla, onko koneessani otettu käyttöön VT-X. Omassa koneessani pyörii Windows 11 Pro käyttöjärjestelmä, ja youtubesta löytämästäni tutorialista (Lenovo Support 8.5.2025, 0:36 min) selvisi, että virtualisointiasetukset otetaan automaattisesti käyttöön, jos koneesta löytyy sitä tukeva rauta.
 Menin koneen bios-asetuksiin videon ohjeistamalla tavalla, ja virtualisointi (nimetty AMD-V tässä koneessa) oli siellä tosiaan jo valmiiksi aktivoitu käyttöön.
@@ -59,7 +60,9 @@ Johanna Heinonen. How to Insall Linux to Virtualbox?
 Luettavissa: https://github.com/johannaheinonen/johanna-test-repo/blob/main/linux-20082025.md. Luettu: 21.8.2025
 
 Tero Karvinen. Install Debian on Virt-Manager - Trixie update 2025.  
-Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/. Luettu: 21.8.2025
+Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/. Luettu: 21.8.2025.
+
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 20.8.2025.
 
 Oracle VirtualBox Programming Guide and Reference.  
 Luettavissa: https://download.virtualbox.org/virtualbox/SDKRef.pdf. Luettu: 21.8.2025

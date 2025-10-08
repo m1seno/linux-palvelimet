@@ -18,7 +18,7 @@ https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 ### Hanki TLS-sertifikaatti
 Tein harjoituksen 1.10.2025 kotitoimistossani Kaarinassa. Koneena oli Lenovo V14 G4 AMN. Käyttöjärjestelmänä Windows 11 Pro version 23H2.
 
-Viikon tehtävä oli melko yksinkertainen ja onnistuin sen tekemisessä Teron kurssisivuille laatimien vinkkien avulla (terokarvinen.com).
+Viikon tehtävä oli melko yksinkertainen ja onnistuin sen tekemisessä Teron kurssisivuille laatimien vinkkien avulla (Tero Karvinen, ).
 
 16:00. Aloitin potkaisemalla apachea komennolla `$ sudo systemctl restart apache2`. Seuraavaksi tarkistin, että miikanordblad.com näkyy windows koneeni sekä puhelimeni selaimessa.
 
@@ -53,4 +53,4 @@ Kävin vielä tarkistamassa apachen sites-available -kansiosta että le-ssl -tie
 ![](images/h6/a-luokitus.png)
 
 ### Lähteet
-terokarvinen.com. Linux Palvelimet 2025 alkusyksy. h6 Salataampa. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 1.10.2025.
+Tero Karvinen. 8.8.2025. Linux Palvelimet 2025 alkusyksy. h6 Salataampa. Luettavissa: https://terokarvinen.com/linux-palvelimet/. Luettu: 1.10.2025.
